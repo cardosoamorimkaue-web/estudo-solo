@@ -1,0 +1,11 @@
+a = input('Digite Algo ')
+
+print('Quem tipo de Dado é esse? ', format(type(a))) 
+#print('Só Tem Espaços? ', format(a.isspace()))
+print('Só Tem Espaços? ', format(a.isspace())) 
+print('Isso é um Numero? ', format(a.isnumeric()))
+print("Isso é Alfabético? ", format(a.isalpha()))
+print('isso é Alfanumérico?', format(a.isalnum()))
+print('Está em MAIUSCULAS ? ', format(a.isupper()))
+print('Está em minusculas ? ', format(a.islower()))
+print('Está Capitalizada ? ', format(a.istitle()))
